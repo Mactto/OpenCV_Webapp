@@ -1,6 +1,6 @@
 # OpenCV 얼굴인식 웹 서비스
 
-[pythonanywhere 임시 배포 링크](mactto.pythonanywhere.com)
+[pythonanywhere 임시 배포 링크](http://mactto.pythonanywhere.com/)
 
 ※ UI 하나도 안해서 구림
 
