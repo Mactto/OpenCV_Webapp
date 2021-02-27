@@ -34,4 +34,3 @@ def dface(request):
     else:
         form = ImageUploadForm()
     return render(request, 'opencv_webapp/dface.html', {'form': form})
-
