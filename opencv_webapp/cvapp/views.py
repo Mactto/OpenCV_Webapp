@@ -28,10 +28,10 @@ def dface(request):
             post.save()
 
             imageURL = settings.MEDIA_URL + form.instance.document.name
-            print(imageURL)
             opencv_dface(settings.MEDIA_ROOT_URL + imageURL)
 
-            return render(request, 'opencv_webapp/dface.html', {'form': form, 'post':post})
+            return render(request, 'opencv_webapp/dface.html', {'form': form, 'post': post})
     else:
         form = ImageUploadForm()
     return render(request, 'opencv_webapp/dface.html', {'form': form})
+
